@@ -11,6 +11,8 @@ import webbrowser
 import toolbox
 from toolbox.lib import try_me
 
+try_me()
+
 if __name__ == '__main__':
     usage = '%(prog)s'
     description = 'toolbox_description'

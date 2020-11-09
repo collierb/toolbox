@@ -53,7 +53,7 @@ def try_me():
     """ open my website
     """
     #time.sleep(2)
-    webbrowser.open('https://databloominscience.netlify.app/', new=2)
+    return webbrowser.open('https://databloominscience.netlify.app/', new=2)
 
 
 if __name__ == '__main__':
