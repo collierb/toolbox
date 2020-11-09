@@ -6,6 +6,7 @@ import toolbox
 import pandas as pd
 # Import from our lib
 # from toolbox.lib import clean_data
+from toolbox.lib import try_me
 import pytest
 
 
@@ -17,3 +18,6 @@ import pytest
 #     assert df.shape == (999, 142)
 #     out = clean_data(df)
 #     assert out.shape == (985, 119)
+
+def test_try_me():
+    assert try_me() == "OK"

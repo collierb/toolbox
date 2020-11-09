@@ -55,6 +55,8 @@ def try_me():
     time.sleep(2)
     webbrowser.open('https://databloominscience.netlify.app/', new=2)
 
+    return "OK"
+
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
