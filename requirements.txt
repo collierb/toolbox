@@ -10,4 +10,4 @@ yapf
 python-gitlab
 twine
 nltk
-string
+strings
