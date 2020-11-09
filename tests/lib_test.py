@@ -4,6 +4,7 @@
 import os
 import toolbox
 import pandas as pd
+import webbrowser
 # Import from our lib
 # from toolbox.lib import clean_data
 from toolbox.lib import try_me
@@ -20,4 +21,4 @@ import pytest
 #     assert out.shape == (985, 119)
 
 def test_try_me():
-    assert try_me() == "OK"
+    assert try_me()

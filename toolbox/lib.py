@@ -50,12 +50,10 @@ pd.set_option('display.width', 200)
 #     return data
 
 def try_me():
-    """open my website
+    """ open my website
     """
-    time.sleep(2)
+    #time.sleep(2)
     webbrowser.open('https://databloominscience.netlify.app/', new=2)
-
-    return "OK"
 
 
 if __name__ == '__main__':
